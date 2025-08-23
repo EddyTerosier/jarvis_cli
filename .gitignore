@@ -1,0 +1,24 @@
+# Environnements & caches
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.cache/
+.tmp/
+.build/
+
+# Artefacts locaux
+nlu.pkl
+traces.jsonl
+dataset.csv
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+docs/

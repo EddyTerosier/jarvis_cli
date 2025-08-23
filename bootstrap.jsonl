@@ -1,0 +1,11 @@
+{"text": "Quelle est la différence entre NodePort et ClusterIP ?", "label": "qa"}
+{"text": "Donne-moi un rappel RGPD rapide", "label": "qa"}
+{"text": "Salut, comment ça va ?", "label": "smalltalk"}
+{"text": "Merci", "label": "smalltalk"}
+{"text": "Recherche info Kubernetes", "label": "web_search"}
+{"text": "Va chercher des infos sur MiniGrid", "label": "web_search"}
+{"text": "ls", "label": "run_command"}
+{"text": "echo bonjour", "label": "run_command"}
+{"text":"Quelle est la différence entre NodePort et ClusterIP ?", "label":"qa"}
+{"text":"MiniGrid : quand passer de Q-Learning à DQN ?", "label":"qa"}
+{"text":"Recherche les docs officielles sur dataclass", "label":"web_search"}

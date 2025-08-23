@@ -1,0 +1,52 @@
+ui:
+  name: JARVIS
+  accent: cyan
+  show_sources: true
+  ask_show_sources: false
+  max_sources: 2
+  show_confidence: bar
+  summary: false
+style:
+  tone: taquin
+  lang: fr
+  translator: auto
+thresholds:
+  intent_confidence_min: 0.55
+rag:
+  docs_path: docs
+  max_snippet_chars: 700
+web:
+  enabled: true
+  max_results: 3
+  whitelist:
+  - docs.python.org
+  - realpython.com
+  - pypi.org
+  - peps.python.org
+  - python.org
+  - pandas.pydata.org
+  - numpy.org
+  - scikit-learn.org
+  - seaborn.pydata.org
+  - inserm.fr
+  - has-sante.fr
+  - who.int
+  - nhs.uk
+  - apa.org
+  blacklist: []
+  cache: true
+  timeout: 10
+  user_agent: JarvisCLI/0.1 (+local)
+policy:
+  epsilon: 0.0
+  alpha: 0.4
+  gamma: 0.9
+commands:
+  enabled: false
+  allowed: []
+intents:
+- qa
+- smalltalk
+- web_search
+- run_command
+- unknown

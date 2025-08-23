@@ -1,0 +1,17 @@
+{
+  "qa": {
+    "answer_from_rag": 0.22835198999999995,
+    "ask_clarification": 0.1599
+  },
+  "smalltalk": {
+    "answer_from_rag": 0.03989999999999999,
+    "ask_clarification": -0.09
+  },
+  "run_command": {
+    "ask_clarification": -0.51
+  },
+  "web_search": {
+    "answer_from_rag": -0.3,
+    "web_search": 0.667913704079943
+  }
+}
